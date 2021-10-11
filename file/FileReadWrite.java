@@ -13,7 +13,7 @@ public class FileReadWrite {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("enter Something to be wrote on the File ");
+        System.out.println("enter Something to be write on the File ");
         Scanner sc=new Scanner(System.in);
         try {
             fw.write(sc.nextLine());
