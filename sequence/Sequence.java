@@ -19,7 +19,7 @@ public class Sequence {
                                       int i, int j)
     {
 
-        // Note : Default values in visited are false
+        
         boolean[] visited = new boolean[26];
 
         for(int k = i; k <= j; k++)
